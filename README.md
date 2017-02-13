@@ -1,10 +1,12 @@
 # ComandosLinux## Ejercicios comandos Linux 
-1. Listar todos los archivos del directorio bin. ls /bin  
-2. Listar todos los archivos del directorio tmp.  ls /tmp
+1. Listar todos los archivos del directorio bin.              ls /bin  
+2. Listar todos los archivos del directorio tmp.              ls /tmp
 3. Listar todos los archivos del directorio etc que empiecen por t en orden
-inverso.  
+inverso.    cd /etc
+            ls -r t
 4. Listar todos los archivos del directorio dev que empiecen por tty y tengan
-5 caracteres.  
+5 caracteres.       cd /dev
+                    ls tty?? 
 5. Listar todos los archivos del directorio dev que empiecen por tty y acaben
 en 1,2,3 ó 4.  
 6. Listar todos los archivos del directorio dev que empiecen por t y acaben
