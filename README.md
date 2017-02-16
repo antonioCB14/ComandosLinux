@@ -63,17 +63,29 @@ dir1 crear el directorio dir11. Dentro del directorio dir3 crear el directorio
 dir31. Dentro del directorio dir31, crear los directorios dir311 y dir312.
 
 /home/usuario/PRUEBA
+
 mkdir dir1
+
 mkdir dir2
+
 mkdir dir3
+
 cd dir1
+
 mkdir dir11
+
 cd ..
+
 cd dir3
+
 mkdir dir31
+
 cd /dir31
+
 mkdir dir311
+
 mkdir dir312
+
  
 18. Copiar el archivo /etc/motd a un archivo llamado mensaje de vuestro
 directorio PRUEBA.                                                                   
