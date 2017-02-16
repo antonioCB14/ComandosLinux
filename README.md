@@ -94,7 +94,9 @@ mkdir dir312
 
  
 18. Copiar el archivo /etc/motd a un archivo llamado mensaje de vuestro
-directorio PRUEBA.                                                                   
+directorio PRUEBA.    
+
+
 19. Copiar mensaje en dir1, dir2 y dir3.  
 20. Comprobar el ejercicio anterior mediante un solo comando.  
 21. Copiar los archivos del directorio rc.d que se encuentra en /etc al
