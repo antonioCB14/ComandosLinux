@@ -2,11 +2,9 @@
 1. Listar todos los archivos del directorio bin.
 
 ls /bin  
-
 2. Listar todos los archivos del directorio tmp. 
 
 ls /tmp
-
 3. Listar todos los archivos del directorio etc que empiecen por t en orden
 inverso.
 
@@ -62,13 +60,13 @@ ls –i $HOME
 
 16. Borrar todos los archivos y directorios visibles de vuestro directorio
 PRUEBA.                                                                             
-rm –r /home/usuario/PRUEBA
+rm –r /tmp/PRUEBA
 
 17. Crear los directorios dir1, dir2 y dir3 en el directorio PRUEBA. Dentro de
 dir1 crear el directorio dir11. Dentro del directorio dir3 crear el directorio
 dir31. Dentro del directorio dir31, crear los directorios dir311 y dir312.
 
-/home/usuario/PRUEBA
+/tmp/PRUEBA
 
 mkdir dir1
 
@@ -94,20 +92,34 @@ mkdir dir312
 
  
 18. Copiar el archivo /etc/motd a un archivo llamado mensaje de vuestro
-directorio PRUEBA.    
+directorio PRUEBA.
 
+sudo touch motd
+cp /etc/motd /tmp/PRUEBA
 
-19. Copiar mensaje en dir1, dir2 y dir3.  
+19. Copiar mensaje en dir1, dir2 y dir3.
+
+cp /tmp/PRUEBA/motd /tmp/PRUEBA/dir1
+cp /tmp/PRUEBA/motd /tmp/PRUEBA/dir2
+cp /tmp/PRUEBA/motd /tmp/PRUEBA/dir3
+
 20. Comprobar el ejercicio anterior mediante un solo comando.  
+
+
 21. Copiar los archivos del directorio rc.d que se encuentra en /etc al
 directorio dir31.  
+
 22. Copiar en el directorio dir311 los archivos de /bin que tengan una a como
 segunda letra y su nombre tenga cuatro letras.  
+
 23. Copiar el directorio de otro usuario y sus subdirectorios debajo de dir11
 (incluido el propio directorio).  
+
 24. Mover el directorio dir31 y sus subdirectorios debajo de dir2.  
+
 25. Mostrar por pantalla los archivos ordinarios del directorio HOME y sus
 subdirectorios.  
+
 26. Ocultar el archivo mensaje del directorio dir3.  
 27. Borrar los archivos y directorios de dir1, incluido el propio directorio.  
 28. Copiar al directorio dir312 los ficheros del directorio /dev que empiecen
